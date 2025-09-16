@@ -29,7 +29,7 @@ root.container.addEventListener('change', () => {
 });
 
 root.container.addEventListener('reset', () => {
-    setTImeout(onAction)
+    setTimeout(onAction)
 });
 
 root.container.addEventListener('submit', (e) => {
